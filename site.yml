@@ -1,8 +1,5 @@
-
-cat << EOF > site.yml
 ---
 - hosts: client_node
   become: True
   roles:
     - hands-on
-EOF
